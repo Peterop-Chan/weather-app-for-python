@@ -42,6 +42,4 @@ class Weather:
         weather_conditions = soup.find_all("div", class_="desc")
         return weather_conditions[0].text
 
-        
-
-
+    
